@@ -1,19 +1,14 @@
 <?php
 
-use Illuminate\Foundation\Inspiring;
-use Illuminate\Support\Facades\Artisan;
 
-/*
-|--------------------------------------------------------------------------
-| Console Routes
-|--------------------------------------------------------------------------
-|
-| This file is where you may define all of your Closure based console
-| commands. Each Closure is bound to a command instance allowing a
-| simple approach to interacting with each command's IO methods.
-|
-*/
+use App\Jobs\AspJob;
+use App\Jobs\LaravelJob;
+use App\Jobs\NodeJSJob;
+use App\Jobs\PaythonJob;
+use App\Jobs\ReactJob;
+use App\Jobs\SymfonyJob;
+use App\Jobs\VueJsJob;
+use App\Jobs\WordPressJob;
+use Illuminate\Support\Facades\Schedule;
 
-Artisan::command('inspire', function () {
-    $this->comment(Inspiring::quote());
-})->purpose('Display an inspiring quote');
+
