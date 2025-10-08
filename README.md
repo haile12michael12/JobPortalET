@@ -1,13 +1,13 @@
 
 
 <div align="center">
-  <h1>ðŸŽ¯ Geezap-Job Aggregator</h1>
+  <h1>JobPortalET </h1>
   <p>A comprehensive job aggregation platform that brings opportunities from multiple sources into one place.</p>
 </div>
 
-## ðŸ“Œ Project Overview
+## Project Overview
 
-Geezap-Job Aggregator is a Laravel-based application that simplifies the job search process by aggregating job listings from various platforms including:
+JobPortalET  is a Laravel-based application that simplifies the job search process by aggregating job listings from various platforms including:
 - LinkedIn
 - Upwork
 - Indeed
@@ -16,7 +16,7 @@ Geezap-Job Aggregator is a Laravel-based application that simplifies the job sea
 
 The platform not only consolidates job listings but also provides tools to enhance the job application process and preparation.
 
-## ðŸš€ Key Features
+##  Key Features
 
 - **Job Aggregation**
     - Unified search across multiple job platforms
@@ -33,12 +33,12 @@ The platform not only consolidates job listings but also provides tools to enhan
     - Customizable templates
     - Export options
 
-## ðŸ› ï¸ Installation
+##Installation
 
 1. Clone the repository
 ```bash
-git clone https://github.com/theihasan/geezap.git
-cd geezap
+git clone https://github.coM
+cd JobPortalET 
 ```
 
 2. Install dependencies
@@ -57,9 +57,7 @@ php artisan key:generate
 ```bash
 OPENAI_API_KEY=your_openai_api_key
 
-# Cloudflare Turnstile
-CLOUDFLARE_TURNSTILE_SITE_KEY=your_site_key
-CLOUDFLARE_TURNSTILE_SECRET_KEY=your_secret_key
+
 ```
 > Also you may need to set turnstile widget from cloudflare dashboard
 
@@ -81,11 +79,11 @@ npm run dev
 ```
 
 8. Add Job Category
-- Add a job category via the admin panel: `/geezap/job-categories`.
+- Add a job category via the admin panel: `/JobPortalET/job-categories`.
 - Admin credential are available in the seeder class
 
 9. Add API-Key
-- Add API Keys for job search via admin panel: `/geezap/api-keys`.
+- Add API Keys for job search via admin panel: `/JobPortalET/api-keys`.
 
 10. Run the Scheduler
 ```bash
@@ -104,7 +102,7 @@ php artisan queue:work
 php artisan cache:clear
 ```
 
-## ðŸ’» Technologies Used
+## Technologies Used
 
 - Laravel 11.x
 - Laravel Reverb for WebSocket
@@ -113,9 +111,9 @@ php artisan cache:clear
 - Livewire (Frontend)
 - TailwindCSS
 
-## ðŸ“§ Email Communications
+## Email Communications
 
-Geezap sends emails to users at various touchpoints throughout their journey:
+JobPortalET sends emails to users at various touchpoints throughout their journey:
 
 1. **User Registration**
     - Welcome email when a new user signs up
@@ -138,7 +136,7 @@ All emails are sent using a failover configuration that ensures reliable deliver
   - Social Authentication via Github, Google. Facebook ongoing.
   - Bot protection using Cloudflare turnstile.
   - Better filtering options in browse job page.
-## ðŸ”œ Upcoming Features
+## Upcoming Features
 - **Personalized Job Recommendations**
     - AI-driven suggestions based on user activity, preferences, and saved searches.
     - AI-powered job recommendations
@@ -153,10 +151,10 @@ All emails are sent using a failover configuration that ensures reliable deliver
     - Job preference
 
 
-## ðŸ¤ Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## ðŸ“ License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
